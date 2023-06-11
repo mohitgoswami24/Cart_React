@@ -1,13 +1,11 @@
-
+import React from "react";
+import CartItem from "./CartItem"; 
 
 function App() {
-  const name = 'Mohit';
-  const isLoggedIn = false;
-
-
   return (
     <div className="App">
-     <h1>Cart</h1>
+ 
+     <CartItem />
     </div>
   );
 }
